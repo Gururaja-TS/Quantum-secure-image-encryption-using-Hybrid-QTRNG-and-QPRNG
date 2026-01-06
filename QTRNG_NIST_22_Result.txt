@@ -1,0 +1,50 @@
+Test Data File:C:/Users/acer/Desktop/QRNG/7.Quantum_Hardware_RNG_FILE/QTRNG_RNG.txt
+
+
+Type of Test                                      	P-Value             	Conclusion
+01. Frequency (Monobit) Test                      	0.0                 	Non-Random
+02. Frequency Test within a Block                 	0.0                 	Non-Random
+03. Runs Test                                     	0.0                 	Non-Random
+04. Test for the Longest Run of Ones in a Block   	5.731669263749713e-26	Non-Random
+05. Binary Matrix Rank Test                       	0.6659362288991094  	Random
+06. Discrete Fourier Transform (Spectral) Test    	1.1112347866819727e-17	Non-Random
+07. Non-overlapping Template Matching Test        	0.0                 	Non-Random
+08. Overlapping Template Matching Test            	3.6839421390553773e-57	Non-Random
+09. Maurer's "Universal Statistical" Test         	3.4285707553833974e-46	Non-Random
+10. Linear Complexity Test                        	0.3463315241865035  	Random
+11. Serial Test:
+													1.850907606493036e-230	Non-Random
+													0.02657385627251766 	Random
+12. Approximate Entropy Test                      	0.0                 	Non-Random
+13. Cumulative Sums Test (Forward)                	0.0                 	Non-Random
+14. Cumulative Sums Test (Backward)               	0.0                 	Non-Random
+15. Random Excursions Test:
+				State     	Chi Squared         	P-Value             	Conclusion
+				-4        	10.58503401360544   	0.06025738754170381 	Random
+				-3        	2.0368000000000004  	0.8440299856412804  	Random
+				-2        	3.386831275720165   	0.640576320057361   	Random
+				-1        	1.3333333333333335  	0.9314646171334655  	Random
+				+1        	5.0                 	0.41588018699550794 	Random
+				+2        	3.5843621399176953  	0.6106627667735742  	Random
+				+3        	4.220799999999999   	0.5180838345734751  	Random
+				+4        	2.0730251284187147  	0.8389511636331648  	Random
+16. Random Excursions Variant Test:
+				State     	COUNTS              	P-Value             	Conclusion
+				-9.0      	7                   	0.8044927488014201  	Random
+				-8.0      	2                   	0.5981614526835282  	Random
+				-7.0      	1                   	0.5334472631525882  	Random
+				-6.0      	3                   	0.5796392710816557  	Random
+				-5.0      	5                   	0.6338680221454263  	Random
+				-4.0      	5                   	0.5891544654500582  	Random
+				-3.0      	7                   	0.6480768681391462  	Random
+				-2.0      	8                   	0.6373518882339371  	Random
+				-1.0      	9                   	0.5402913746074199  	Random
+				+1.0      	15                  	0.5402913746074199  	Random
+				+2.0      	17                  	0.5556897902827946  	Random
+				+3.0      	17                  	0.6480768681391462  	Random
+				+4.0      	13                  	0.9385028847784713  	Random
+				+5.0      	12                  	1.0                 	Random
+				+6.0      	17                  	0.758288758433211   	Random
+				+7.0      	16                  	0.8208472385419284  	Random
+				+8.0      	13                  	0.9579672518055619  	Random
+				+9.0      	13                  	0.9605149582960633  	Random

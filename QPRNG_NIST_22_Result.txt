@@ -1,0 +1,50 @@
+Test Data File:C:/Users/acer/Desktop/QRNG/7.Quantum_Hardware_RNG_FILE/QPRNG_RNG.txt
+
+
+Type of Test                                      	P-Value             	Conclusion
+01. Frequency (Monobit) Test                      	4.225051002226116e-110	Non-Random
+02. Frequency Test within a Block                 	4.578295524087525e-09	Non-Random
+03. Runs Test                                     	0.0                 	Non-Random
+04. Test for the Longest Run of Ones in a Block   	1.5183758953742116e-05	Non-Random
+05. Binary Matrix Rank Test                       	0.0314524467543144  	Random
+06. Discrete Fourier Transform (Spectral) Test    	0.1023764848172277  	Random
+07. Non-overlapping Template Matching Test        	1.8981062206399368e-12	Non-Random
+08. Overlapping Template Matching Test            	8.168031953830572e-08	Non-Random
+09. Maurer's "Universal Statistical" Test         	0.05914143457572298 	Random
+10. Linear Complexity Test                        	0.6328877651535205  	Random
+11. Serial Test:
+													0.00448859657836643 	Non-Random
+													0.029897076834861393	Random
+12. Approximate Entropy Test                      	4.1856201526745614e-28	Non-Random
+13. Cumulative Sums Test (Forward)                	2.0658566361311216e-110	Non-Random
+14. Cumulative Sums Test (Backward)               	1.477479482361111e-110	Non-Random
+15. Random Excursions Test:
+				State     	Chi Squared         	P-Value             	Conclusion
+				-4        	7.0900441809376815  	0.2140292867323563  	Random
+				-3        	1.4903529411764704  	0.9141803905084956  	Random
+				-2        	12.739530380053255  	0.025945835018709337	Random
+				-1        	3.5882352941176467  	0.6100805718845059  	Random
+				+1        	3.0784313725490198  	0.6878953004012481  	Random
+				+2        	1.3960300169450495  	0.9247470532644534  	Random
+				+3        	0.739482352941176   	0.9807317283791578  	Random
+				+4        	1.3488415774473055  	0.9298265877645501  	Random
+16. Random Excursions Variant Test:
+				State     	COUNTS              	P-Value             	Conclusion
+				-9.0      	91                  	0.33676126966838027 	Random
+				-8.0      	90                  	0.31873806376587865 	Random
+				-7.0      	87                  	0.32284759675344876 	Random
+				-6.0      	90                  	0.2442988930678075  	Random
+				-5.0      	102                 	0.09232654595631032 	Random
+				-4.0      	95                  	0.09962823518479669 	Random
+				-3.0      	75                  	0.2879008453058348  	Random
+				-2.0      	58                  	0.6890361955633366  	Random
+				-1.0      	55                  	0.6920614909359382  	Random
+				+1.0      	51                  	1.0                 	Random
+				+2.0      	61                  	0.5675510167281037  	Random
+				+3.0      	55                  	0.8594117941429606  	Random
+				+4.0      	40                  	0.6805852358178088  	Random
+				+5.0      	31                  	0.5091907097906686  	Random
+				+6.0      	24                  	0.4202082909730849  	Random
+				+7.0      	18                  	0.3648099943419528  	Random
+				+8.0      	14                  	0.344187613369603   	Random
+				+9.0      	10                  	0.3248211704202032  	Random
